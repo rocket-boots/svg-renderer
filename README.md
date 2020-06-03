@@ -27,7 +27,7 @@ Substitute the version number for the version of your choice, or `master`.
 ```
 
 ```js
-import { svgRenderer } from 'rocket-boots-svg-render';
+import svgRenderer from 'rocket-boots-svg-render';
 
 const display = new svgRenderer.SvgDisplay({ svgId: 'display' });
 
